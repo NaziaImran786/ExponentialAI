@@ -7,13 +7,13 @@ import CTASection from "@/components/cta-section"
 export default function Home() {
   return (
     <>
-    {/* <section className="flex flex-col w-full">   */}
+    <section className="flex flex-col w-full">  
       <HeroSection />
       <FeaturesSection />
       <CaseStudiesSection />
       <TestimonialsSection />
       <CTASection />    
-    {/* </section> */}
+    </section>
     </>
   )
 }

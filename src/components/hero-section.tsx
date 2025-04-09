@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 right-0 h-[500px] bg-[radial-gradient(circle_500px_at_50%_200px,rgba(147,51,234,0.1),transparent)] dark:bg-[radial-gradient(circle_500px_at_50%_200px,rgba(147,51,234,0.05),transparent)]" />
 
-      <div className="container px-2 relative">
+      <div className="container mx-auto px-2 relative">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
             <span className="bg-gradient-to-r from-purple-600 to-pink-600 text-transparent bg-clip-text">
